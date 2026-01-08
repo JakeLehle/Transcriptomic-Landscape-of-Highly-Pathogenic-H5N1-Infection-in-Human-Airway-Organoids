@@ -1,0 +1,32 @@
+name: RNA-seq_NovoGene
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bamstats
+  - bioconductor-deseq2
+  - bioconductor-edger
+  - cython
+  - firefox
+  - gatk4
+  - hisat2
+  - parallel-fastq-dump
+  - python-wget
+  - r-base
+  - r-biomartr
+  - r-enrichr
+  - r-gam
+  - r-ggplot2
+  - r-gprofiler
+  - r-logging
+  - r-rcolorbrewer
+  - rmats
+  - rstudio-desktop
+  - samtools
+  - snpeff
+  - sra-tools[version='>=3.0.0']
+  - star-fusion
+  - subread
+  - bioconda::trim-galore
+  - bioconda::multiqc
+  - bioconda::bioconductor-rsubread
